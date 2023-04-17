@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B1E6B7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edta"
+        android:layout_width="250dp"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@drawable/edt2"
+        android:hint="Enter Amount"/>
+
+    <EditText
+        android:id="@+id/edtm"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:textSize="21dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:background="@drawable/edt2"
+        android:hint="Enter Month"/>
+    <EditText
+        android:id="@+id/edtdp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="56dp"
+        android:textSize="21dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="number"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:background="@drawable/edt2"
+        android:hint="Enter DP"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn1"
+        android:layout_width="250dp"
+        android:layout_height="56dp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:text="Calculate"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edt"
+        />
+    <EditText
+        android:id="@+id/edtemi"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="56dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:background="#FCFDFC"
+        android:hint="EMI-  "/>
+    <!--    <EditText-->
+    <!--        android:id="@+id/edttemi"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_height="56dp"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:background="#FCFDFC"-->
+    <!--        android:hint="Total EMI-  "/>-->
+
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/btn2"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="56dp"-->
+    <!--        android:text="Calculate"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginLeft="10dp"-->
+    <!--        android:background="#2DB328"-->
+    <!--        />-->
+
+
+
+</LinearLayout>
